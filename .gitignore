@@ -1,0 +1,33 @@
+# ====== 依赖目录 ======
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+
+# ====== 构建产物 ======
+/dist
+/build
+/out
+*.exe
+*.class
+
+# ====== 日志 & 临时文件 ======
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ====== 环境变量 ======
+.env
+.env.local
+
+# ====== IDE ======
+.idea/
+.vscode/
+*.iml
+
+# ====== 系统 & 缓存 ======
+.cache/
+.npm/
+.eslintcache
